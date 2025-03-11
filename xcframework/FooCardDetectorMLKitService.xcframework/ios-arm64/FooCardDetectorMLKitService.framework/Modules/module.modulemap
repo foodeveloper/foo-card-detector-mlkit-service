@@ -1,0 +1,6 @@
+framework module FooCardDetectorMLKitService {
+  umbrella header "FooCardDetectorMLKitService.h"
+  export *
+
+  module * { export * }
+}

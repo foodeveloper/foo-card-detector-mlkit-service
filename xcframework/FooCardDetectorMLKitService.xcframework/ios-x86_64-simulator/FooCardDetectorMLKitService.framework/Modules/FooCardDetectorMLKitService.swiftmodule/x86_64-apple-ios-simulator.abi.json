@@ -1,0 +1,432 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FooCardDetectorMLKitService",
+    "printedName": "FooCardDetectorMLKitService",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FooCardDetectorMLKitService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitTextRecognition",
+        "printedName": "MLKitTextRecognition",
+        "declKind": "Import",
+        "moduleName": "FooCardDetectorMLKitService"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FooCardDetectorMLKitService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "FooCardDetectorMLKitService"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitVision",
+        "printedName": "MLKitVision",
+        "declKind": "Import",
+        "moduleName": "FooCardDetectorMLKitService"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitTextRecognition",
+        "printedName": "MLKitTextRecognition",
+        "declKind": "Import",
+        "moduleName": "FooCardDetectorMLKitService"
+      },
+      {
+        "kind": "Import",
+        "name": "FooCardDetectorInterface",
+        "printedName": "FooCardDetectorInterface",
+        "declKind": "Import",
+        "moduleName": "FooCardDetectorMLKitService"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FooCardDetectorMLKitService",
+        "printedName": "FooCardDetectorMLKitService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FooCardDetectorMLKitService",
+                "printedName": "FooCardDetectorMLKitService.FooCardDetectorMLKitService",
+                "usr": "s:27FooCardDetectorMLKitServiceAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:27FooCardDetectorMLKitServiceAACABycfc",
+            "mangledName": "$s27FooCardDetectorMLKitServiceAACABycfc",
+            "moduleName": "FooCardDetectorMLKitService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27FooCardDetectorMLKitServiceAAC5resetyyF",
+            "mangledName": "$s27FooCardDetectorMLKitServiceAAC5resetyyF",
+            "moduleName": "FooCardDetectorMLKitService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "completionHandler",
+            "printedName": "completionHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String, Swift.String, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27FooCardDetectorMLKitServiceAAC17completionHandlerySS_S2StcSgvp",
+            "mangledName": "$s27FooCardDetectorMLKitServiceAAC17completionHandlerySS_S2StcSgvp",
+            "moduleName": "FooCardDetectorMLKitService",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String, Swift.String, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, Swift.String, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27FooCardDetectorMLKitServiceAAC17completionHandlerySS_S2StcSgvg",
+                "mangledName": "$s27FooCardDetectorMLKitServiceAAC17completionHandlerySS_S2StcSgvg",
+                "moduleName": "FooCardDetectorMLKitService",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String, Swift.String, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, Swift.String, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27FooCardDetectorMLKitServiceAAC17completionHandlerySS_S2StcSgvs",
+                "mangledName": "$s27FooCardDetectorMLKitServiceAAC17completionHandlerySS_S2StcSgvs",
+                "moduleName": "FooCardDetectorMLKitService",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27FooCardDetectorMLKitServiceAAC17completionHandlerySS_S2StcSgvM",
+                "mangledName": "$s27FooCardDetectorMLKitServiceAAC17completionHandlerySS_S2StcSgvM",
+                "moduleName": "FooCardDetectorMLKitService",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "shouldProcess",
+            "printedName": "shouldProcess(sampleBuffer:orientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Orientation",
+                "printedName": "UIKit.UIImage.Orientation",
+                "usr": "c:@E@UIImageOrientation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27FooCardDetectorMLKitServiceAAC13shouldProcess12sampleBuffer11orientationySo08CMSampleI3Refa_So18UIImageOrientationVtF",
+            "mangledName": "$s27FooCardDetectorMLKitServiceAAC13shouldProcess12sampleBuffer11orientationySo08CMSampleI3Refa_So18UIImageOrientationVtF",
+            "moduleName": "FooCardDetectorMLKitService",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27FooCardDetectorMLKitServiceAAC",
+        "mangledName": "$s27FooCardDetectorMLKitServiceAAC",
+        "moduleName": "FooCardDetectorMLKitService",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FooCardDetectorProtocol",
+            "printedName": "FooCardDetectorProtocol",
+            "usr": "s:24FooCardDetectorInterface0abC8ProtocolP",
+            "mangledName": "$s24FooCardDetectorInterface0abC8ProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FooCardDetectorMLKitService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/datadisk\/workspace\/iOSFramework-YeepalProductCardDetectorServices-Production-pipeline\/FooCardDetectorMLKitService\/SDK\/FooCardDetectorMLKitProcessor.swift",
+      "kind": "Array",
+      "offset": 609,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/datadisk\/workspace\/iOSFramework-YeepalProductCardDetectorServices-Production-pipeline\/FooCardDetectorMLKitService\/SDK\/FooCardDetectorMLKitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 643,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/datadisk\/workspace\/iOSFramework-YeepalProductCardDetectorServices-Production-pipeline\/FooCardDetectorMLKitService\/SDK\/FooCardDetectorMLKitProcessor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/datadisk\/workspace\/iOSFramework-YeepalProductCardDetectorServices-Production-pipeline\/FooCardDetectorMLKitService\/SDK\/FooCardDetectorMLKitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2217,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Volumes\/datadisk\/workspace\/iOSFramework-YeepalProductCardDetectorServices-Production-pipeline\/FooCardDetectorMLKitService\/SDK\/FooCardDetectorMLKitProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2263,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Volumes\/datadisk\/workspace\/iOSFramework-YeepalProductCardDetectorServices-Production-pipeline\/FooCardDetectorMLKitService\/SDK\/FooCardDetectorBlacklistedWords.swift",
+      "kind": "Array",
+      "offset": 186,
+      "length": 1227,
+      "value": "[\"valid\", \"through\", \"thru\", \"valid thru\", \"valid through\", \"from\", \"valid from\", \"international\", \"rupay\", \"debit\", \"platinum\", \"axis\", \"sbi\", \"axis bank\", \"credit\", \"card\", \"titanium\", \"bank\", \"global\", \"state bank\", \"of\", \"the\", \"india\", \"valid only\", \"classic\", \"gold\", \"sbi card\", \"visa classic\", \"visa signature\", \"visa gold\", \"electronic\", \"use only\", \"electronic use only\", \"only\", \"use\", \"visa\", \"a\", \"debit card\", \"credit card\", \"more benefits\", \"rak bank\", \"rakbank\", \"scan to discover\", \"customer care\", \"customer\", \"care\", \"match\", \"check\", \"check out\", \"manager\", \"gold\", \"uae\", \"india\", \"debit & prepaid\", \"ubi\", \"united bandk of india\", \"mastercard\", \"mastereo\", \"mastro\", \"signature\", \"corporate card\", \"corporate\", \"prepaid gift card\", \"gift\", \"gift plus\", \"prepaid\", \"we understand your world\", \"world\", \"understand\", \"valid only in india\", \"regalia\", \"easyshop\", \"millennia\", \"infinite\", \"cardholder\", \"Union Bank\", \"Good people to bank with\", \"valid thru valid from\", \"validthruvalid from\", \"valid thruvalid from\", \"valid from valid thru\", \"valid fromvalid thru\", \"valid thruvalid from\", \"expires\", \"end of\", \"csd\", \"end\", \"expiress\", \"end expires of\", \"valid until\", \"expipes\", \"exrires\", \"Al Rajhi Bank\"]"
+    }
+  ]
+}

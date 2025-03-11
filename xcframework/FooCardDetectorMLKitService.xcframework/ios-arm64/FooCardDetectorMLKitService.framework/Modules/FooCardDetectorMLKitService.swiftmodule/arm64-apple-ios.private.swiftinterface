@@ -1,0 +1,21 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FooCardDetectorMLKitService
+import AVFoundation
+import FooCardDetectorInterface
+@_exported import FooCardDetectorMLKitService
+import Foundation
+import MLKitTextRecognition
+import MLKitVision
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class FooCardDetectorMLKitService : FooCardDetectorInterface.FooCardDetectorProtocol {
+  public init()
+  public func reset()
+  public var completionHandler: ((Swift.String, Swift.String, Swift.String) -> ())?
+  public func shouldProcess(sampleBuffer: CoreMedia.CMSampleBuffer, orientation: UIKit.UIImage.Orientation)
+  @objc deinit
+}
